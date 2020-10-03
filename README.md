@@ -1,3 +1,11 @@
+Pela falta de tempo, porque essas duas últimas semanas foram bastante atarefadas para mim, não pude
+concluir todo o desafio, de modo que me esforcei para entregar meia-boca. Está feinho, mas pelo menos
+90% dos requisitos ele cumpre.
+
+
+
+
+
 # Blog-do-Robson
 Para o Include
 
