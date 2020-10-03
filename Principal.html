@@ -1,0 +1,194 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Blog do Robson</title>
+	<style>
+		.menu *{
+			padding: 0px;
+			margin: 0px;
+		}
+		.menu a{
+			display: block;
+			padding: 25px 8px;
+			color: white;
+			border-width: medium;
+			border-style: solid;
+			border-color: black;
+		}
+		.menu a:hover{
+			background-color: green;
+			color: black;
+		}
+		.menu body{
+			font-family: arial;
+		}
+
+		.menu nav{
+			background-color: rgba(12, 12, 12, .5);
+			width: 350px;
+			height: 100%;
+			position: absolute;
+			left: -350px;
+			transition: all .5s;
+		}
+		
+		.menu input[type="checkbox"]{
+			display: none;
+		}
+		.menu label{
+			background: red;
+			padding: 15px;
+			position: absolute;
+			z-index: 1;
+		}
+		.menu ul{
+			list-style: none;
+			top: 70px;
+			position: absolute;
+			width: 100%;
+		}
+		.menu input[type="checkbox"]:checked ~ nav
+		{
+			transform: translateX(+350px);
+		}
+	
+	
+		body{
+			background:#00FF7F;
+		}
+		h1{
+			color:blue;
+			text-align: center;
+		}
+		#conhece{
+			color: orange;
+			border: 2px dashed;
+			margin: 4px;
+		}
+		#perfil{
+			background: rgb(255, 255, 219);
+			float: right;
+			width: 70%;
+		}
+		#cursos{
+			border: 2px dashed blue;
+			margin: 3px;
+		}
+		#email{
+			border: 2px dashed green;
+			margin: 3px;
+		}
+		strong{
+			font-size:20px;
+		}
+		#hobbies{
+			background: #FFD700;
+			float: left;
+			width: 70%;
+			font-size: 22px;
+			color: purple;
+		}
+		#habilidades{
+			background: #DAA520;
+			font-size: 22px;
+			float: right;
+			color: green;
+		}
+	</style>
+</head>
+
+<body>
+	<div class = "menu">
+		<input type="checkbox" id="chec">
+		<label for="chec">
+			<h1>Menu</h1>
+		</label>
+		<nav>
+			<ul>
+				<li><a href="Principal.html">CONHEÇA-ME</a></li>
+				<li><a href="index.html">POSTAGENS</a></li>
+				<li><a href="hora.html">HORA EXATA</a></li>
+			</ul>
+		</nav>
+	</div>
+
+
+	<img src="C:/Users/robso/Desktop/IMG_0743.JPG" alt="Robson segurando o canudo de formatura" width="30%"> 
+	<div id="Perfil">
+		<h1>Robson da Costa Carneiro</h1>
+		<div id="cursos">
+		<h3> Meus Cursos: </h3>
+			<ul>
+				<li><strong>Engenharia de Computação (cursando o 7º Período):</strong><br>
+				Universidade Federal do Rio Grande do Norte - UFRN</li><br>
+				<li><strong>Ciências e Tecnologia - ênfase Tecnologia da Computação (Concluído):</strong><br>
+				Universidade Federal do Rio Grande do Norte - UFRN</li><br>
+				<li><strong>Técnico do Metrópole Digital - ênfase Informática para Internet (concluído):</strong><br>
+				Universidade Federal do Rio Grande do Norte - UFRN</li><br>
+			<li><strong>Técnico integrado ao Ensino Médio - Manutenção e Suporte em Informática (concluído):</strong><br>
+			Centro Estadual de Educação Profissional Jessé Pinto Freire - CENEP</li>
+			</ul>
+		</div>
+		<div id = "email">
+		<h3> Meus e-mails:</h3>
+			<ul>
+			<li>robinho.dacosta@ufrn.edu.br</li>
+			<li>robinho.cenep@gmail.com</li>
+			</ul>
+		</div>
+		<a href = "https://github.com/RobsondCCarneiro">Github de Robson</a>
+		
+	</div>
+	
+	<div id="conhece">
+		<ul>
+		<strong>
+			<h4>Conheça-me:</h4>
+			<li><a href = "#cursos"> Meus Cursos </a></li>
+			<li><a href = "#hobbies"> Lista de Hobbies </a></li>
+			<li><a href = "#habilidades"> Minhas habilidades </a></li>
+		</strong>
+		</ul>
+	</div>
+	
+	<div id="hobbies">
+	<h3> Meus Hobbies: </h3>
+	<p>Sou uma pessoa eclética que curte um monte de estilos musicais, meus preferidos são: rock nacional, pop, forró das antigas, baião, 
+	reggae, pagode e <em>principalmente a nossa querida MPB.</em> Não coloquei artistas especifícos, pois seria uma injustiça aos artistas que
+	não iriam ser mencionados, porém seriam tão bons e queridos por mim, quanto àqueles que eu mencionaria por lembrar, também não quero fazer um textão, rsrsrs.
+	Sobre filmes e séries, a maioria dos generos me agradam, mas o que mais chama minha atenção é quando é aborda temas como: médicos, vampiros, comédia, mistério, etc. Não me
+	agrada filmes sobre guerras.
+	</p>
+	<p>Sou uma pessoa que curte aprender idiomas, porém pela falta de tempo deixei de lado o aprofundamento de novos idiomas,
+	assisto vídeos e compreendo quase totalmente apenas os idiomas: espanhol e inglês, contudo já consigo ter uma conversação em
+	francês. Idiomas que eu já tive algum estudo pela Internet:</p>
+	<ul>
+	<li>Inglês</li>
+	<li>Espanhol</li>
+	<li>Francês</li>
+	<li>Alemão</li>
+	<li>Esperanto</li>
+	<li>Mandarim</li>
+	</ul>
+	<p>Como eu não tive contato recentemente (parei de estudar idiomas em 2016, quando entrei em C&T)
+	com o alemão, o Esperanto e o Mandarim, tive um pouco de atrofia e só consigo leitura,
+	não tenho confiança para ter uma conversação, em chinês só identifico poucos caracteres da língua.
+	Sou apaixonado pelo Esperanto, porque além de servir como uma conexão entre as diferentes famílias de língua da Europa, por ser
+	artificial, não há incoerência, onde é facilmente identificado a classe gramatical pelos prefixos e sufixos, além de haver uma
+	gramática muito simples e lógica.</p>
+	
+	<p>Gostaria de aprender vários instrumentos musicais, porém como tenho pouco poder aquisitivo, eu só sei tocar violão e flauta.</p>
+	</div>
+	<img src="C:/Users/robso/Desktop/patinacao.JPG" alt="Robson patinando" width="30%">
+	
+	<div id = "habilidades">
+	<h3> Minhas Habilidades: </h3>
+	<p>Sou uma pessoa que é tenho muita curiosidade sobre uma diversidade de assuntos além da minha área de formação (Engenharia de Computação), como 
+	astronimia, biologia (principalmente sobre a biomedicina), física e geografia. Também curto aprender idiomas novos, assim como aprender sobre a música.
+	Infelizmente não tenho muitas habilidades em esportes, mas consigo me virar em basquete e vôlei. A cada dia me apaixono mais com a tecnologia e gostaria
+muito de contribuiir para o avanço dela, de forma que possa gerar mais eficiência e melhorar a qualidade de vida de todas as pesssoas, assim
+como diminuir desperdício e poluição no nosso lindo planeta azul. Busco ter resiliência para poder alcançar pelo menos parcialmente os meus objetivos.</p>
+	</div>
+</body>
+</html>
